@@ -1,5 +1,5 @@
 {
-  "name": "gaja-excel",
+  "name": "gaja-excel-to-json-service",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.55.4",
+    "@types/google.fonts": "^1.0.5",
+    "google-fonts": "^1.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.9",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.9"
+    "react-icons": "^5.3.0",
+    "wretch": "^2.9.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tanstack/react-query-devtools": "^5.55.4",
+    "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.9",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.9"
+    "typescript": "^5"
   }
 }
